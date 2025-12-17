@@ -99,6 +99,7 @@ WHERE a.usuario_id NOT IN (SELECT id FROM usuarios);
 
 4. Prevenção no Banco:
 - Definir chave estrangeira com ON DELETE CASCADE:
+
 ALTER TABLE auditoria_login 
 ADD CONSTRAINT fk_usuario 
 FOREIGN KEY (usuario_id) REFERENCES usuarios(id) ON DELETE CASCADE;
