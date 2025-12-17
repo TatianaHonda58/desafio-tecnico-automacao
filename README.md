@@ -30,6 +30,5 @@ Este repositório contém a entrega completa do desafio técnico.
 ```bash
 mvn clean test -Dtest=LoginUITest
 
-Executar testes de API:
-mvn clean test -Dtest=LoginApiTest
+
 
