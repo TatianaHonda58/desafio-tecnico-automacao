@@ -20,23 +20,16 @@ Este repositório contém a entrega completa do desafio técnico.
 
 ## ▶️ Como executar o projeto
 
-Pré-requisitos:
+### Pré-requisitos:
 - Java 11+
 - Maven
 - ChromeDriver configurado
 
-Executar testes de UI:
+### Executar testes de UI:
 
 ```bash
 mvn clean test -Dtest=LoginUITest
 
-
 Executar testes de API:
 mvn clean test -Dtest=LoginApiTest
-
-##📌 Observações
-
-- Projeto estruturado seguindo boas práticas de automação
-- Configurações externalizadas
-- Testes independentes e determinísticos
 
