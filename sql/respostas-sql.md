@@ -98,7 +98,7 @@ WHERE a.usuario_id NOT IN (SELECT id FROM usuarios);
 - O teste falha se o resultado não for vazio, exigindo correção no modelo de dados.
 
 4. Prevenção no Banco:
-Definir chave estrangeira com ON DELETE CASCADE:
+- Definir chave estrangeira com ON DELETE CASCADE:
 ALTER TABLE auditoria_login 
 ADD CONSTRAINT fk_usuario 
 FOREIGN KEY (usuario_id) REFERENCES usuarios(id) ON DELETE CASCADE;
