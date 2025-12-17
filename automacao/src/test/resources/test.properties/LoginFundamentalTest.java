@@ -1,4 +1,5 @@
-Parte 0 – Teoria e Conceitos Fundamentais (25 pts)
+Parte 0 – Teoria e Conceitos Fundamentais
+  
 1. Tipos de teste e prioridade no CI/CD
 Resposta Objetiva:
 ●Teste de Unidade: Valida uma função/método isoladamente, usando mocks para depender apenas do código sob teste.
